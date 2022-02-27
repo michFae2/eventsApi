@@ -47,7 +47,7 @@ export const events = [
       eventId: "E0",
       name: "Into the Unkown Web3 World",
       description: "Sometimes you just gotta let it go.",
-      eventType: "POSTER"
+      eventType: "POSTER_SESSION"
     },
     {
       eventId: "E1",
@@ -63,7 +63,7 @@ export const events = [
     },
     {
       eventId: "E3",
-      eventType: "POSTER",
+      eventType: "POSTER_SESSION",
       name: "Artificial Intelligence For All",
       description: "How to use AI to make accessible technology."
     },
@@ -87,13 +87,13 @@ export const events = [
     },
     {
       eventId: "E7",
-      eventType: "POSTER",
+      eventType: "POSTER_SESSION",
       name: "Hopping into Grace Hopper",
       description: "How to give a great Grace Hopper talk."
     },
     {
       eventId: "E8",
-      eventType: "POSTER",
+      eventType: "POSTER_SESSION",
       name: "Change your Career",
       description: "Switching careers is tricky - but not impossible. Learn how you can make a clean career switch."
     },
@@ -147,13 +147,13 @@ export const events = [
     },
     {
       eventId: "E17",
-      eventType: "POSTER",
+      eventType: "POSTER_SESSION",
       name: "You're Asking the Wrong Questions!",
       description: "Learn how to ask the right ones"
     },
     {
       eventId: "E18",
-      eventType: "POSTER",
+      eventType: "POSTER_SESSION",
       name: "Mixed Reality Research",
       description: "Have you ever wondered what the difference is between AR, VR, and mixed reality? Well - it's time to find out!"
     },
@@ -165,7 +165,7 @@ export const events = [
     },
     {
       eventId: "E20",
-      eventType: "POSTER",
+      eventType: "POSTER_SESSION",
       name: "Next is Inclusion",
       description: "Inclusion is now. Inclusion is the future. What can you do to improve it?"
     },
@@ -183,15 +183,15 @@ export const events = [
     },
     {
       eventId: "E23",
-      eventType: "POSTER",
+      eventType: "POSTER_SESSION",
       name: "Research - C++ Smart Pointer Improvements",
       description: "Dive into the novel C++ Smart Pointer Changes"
     },
     {
       eventId: "E24",
-      eventType: "PRESENTATION",
+      eventType: "MENTORING_CIRCLES",
       name: "Do you know what's wrong?",
-      description: "How to identify the now problems and fix them asap."
+      description: "Join us and learn how to identify the now problems and fix them asap."
     },
     {
       eventId: "E25",
@@ -207,19 +207,19 @@ export const events = [
     },
     {
       eventId: "E27",
-      eventType: "POSTER",
+      eventType: "POSTER_SESSION",
       name: "GraphQL Basics",
       description: "GraphQL Basics"
     },
     {
       eventId: "E28",
-      eventType: "POSTER",
+      eventType: "POSTER_SESSION",
       name: "Fireship Basics",
       description: "An intro to fireship and why its great."
     },
     {
       eventId: "E29",
-      eventType: "WORKSHOP",
+      eventType: "TECH_MEETUP",
       name: "NP Hard",
       description: "Learn how to prove P=NP ... just kidding :D"
     },

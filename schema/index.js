@@ -15,7 +15,9 @@ enum EventType {
   PANEL
   PRESENTATION
   WORKSHOP
-  POSTER
+  POSTER_SESSION
+  MENTORING_CIRCLES
+  TECH_MEETUP
 }
 
 type Event @key(fields: "eventId") {
@@ -27,7 +29,7 @@ type Event @key(fields: "eventId") {
 }
 type Query {
   getEvents: [Event!]
-  getEventsById(id: ID!): Event!
+  getEventById(eventId: ID!): Event  # Set to nullable since we will return null if event doesn't exist
 }
   
 `;
